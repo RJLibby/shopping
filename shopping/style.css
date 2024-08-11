@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(240, 240, 24);
+
+  .helloWorld{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+}
+.grocery-list-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#item-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#item-amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopping-list-container{
+  float: left;
+}
