@@ -3,24 +3,29 @@
 <head>
     <meta charset="utf-8">
     <title>Shopping List</title>
+    <link rel="stylesheet" href="./style.css"/>
     <script src="./script.js"></script>
 </head>
 <body>
+<div class="helloWorld">Grocery List</div>
+<section class="grocery-list-section">
 <div class="item-form-container">
     <form id="item-form">
-        <div>
+        <div class="label-one">
             <label for="item">Item</label>
             <input Type="text" id="item-name">
         </div>
-        <div>
+        <div class="label-two">
             <label for="amount">Amount</label>
             <input type="number" id="item-amount">
         </div>
         <button type="submit">Add Item</button>
     </form>
 </div>
+</section>
 <div class="shopping-list-container">
     <ul id="shopping-list"></ul>
 </div>
+
 </body>
 </html>
